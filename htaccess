@@ -1,0 +1,3 @@
+Options +FollowSymLinks
+RewriteEngine on
+Rewriterule ^/(.*)/(.*)/(.*)$ index.php?pagina=$1&accion=$2&id=$3

@@ -1,0 +1,150 @@
+
+/* ESTILO CSS */
+
+
+#bsuperiorlistado{
+    float:left;
+    width:700px;
+}/*bsuperiorlistado*/
+
+#flechaatras{
+    float:left;
+    margin-top:13px;
+    margin-left:20px;
+    margin-right:23px;
+    background-image: url('../img/row.jpg');
+    width:38px;
+    height:24px;
+}/*fleachaatras*/
+
+.imgcategoriamin{
+    float:left;
+    width:74px;
+    height:50px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}/*imgcategoria*/
+                             
+.catelectronicamin{background-image: url('../img/categorias/min/electronica_min.jpg');}
+.catcasamin{background-image: url('../img/categorias/min/casa_min.jpg');}
+.cattrabajomin{background-image: url('../img/categorias/min/trabajo_min.jpg');}
+.catcochemin{background-image: url('../img/categorias/min/coche_min.jpg');}
+.catpisomin{background-image: url('../img/categorias/min/piso_min.jpg');}
+.catociomin{background-image: url('../img/categorias/min/ocio_min.jpg');}
+
+.nomsubcategorialistado{
+    color: #5590c7;
+    float: left;
+    padding-top: 16px;
+    padding-left: 15px;
+    font-size: 17px;
+    font-weight: bold;
+}/*ElementoMenu*/
+
+#zonabarra{
+    float:left;
+    width:700px;
+    height:27px;
+    margin-top:20px;
+    margin-left:18px;
+    margin-bottom: 20px;
+}/*zonabarra*/
+
+#bizquierda{
+    float: left;
+    height:26px;
+    width:6px;
+    background-image: url('../img/barra/bizquierda.png');
+}/*bizquierda*/
+
+#bcentro{
+    float: left;
+    height:20px;
+    width:650px;
+    background-image: url('../img/barra/bcentro.png');
+    font-size:10px;
+    color:#ececec;
+     padding-top:6px;
+     padding-left:5px;
+}/*bcentro*/
+
+#bderecha{
+    float: left;
+    height:26px;
+    width:6px;
+    background-image: url('../img/barra/bderecha.png');
+}/*bderecha*/
+
+
+
+#canuncio{ 
+    float:left;
+    width:650px;
+    margin-left: 20px;
+    padding-left:10px;
+}/*canuncio*/
+
+#aimagen{
+     float:left;
+     width:100px;
+     height:80px;
+     border:1px solid #cccccc;
+}/*aimagen*/
+
+#atitulo{
+    float:left;
+    width:520px;
+    font-weight: bold;
+    margin-left:15px;
+    padding-top:2px;
+    font-size:15px;
+    color:#003399;  
+}/*atitulo*/
+
+#aprecio{
+    float:left;
+    width:120px;
+    font-weight: bold;
+    margin-left:15px;
+    padding-top:5px;
+    font-size:20px;
+    color:#000000;
+}/*aprecio*/
+
+#azona{
+    text-align: right;
+    float:right;
+    width:350px;
+    margin-left:15px;
+    padding-top:5px;
+    font-size:17px;
+    color:#717171;
+    margin-right: 10px;
+    
+}/*azona*/
+
+#afecha{
+    text-align: right;
+    float:right;
+    width:350px;
+    margin-left:15px;
+    padding-top:10px;
+    font-size:12px;
+    margin-right: 10px;
+}/*afecha*/
+
+
+#aseparador{
+    float:left; 
+    width:650px; 
+    height:3px;
+    background-image: url('../img/pixel2.png');
+    background-repeat: repeat-x;
+    background-position: center;
+    text-align: center;
+    font-size: 14px;
+    color: #bcbcbc;
+    margin-top:20px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+}/*Pie*/ 

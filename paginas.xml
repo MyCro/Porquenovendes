@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<root>
+    <inicio.php>
+        <title>Home page</title>
+        <tmpl>inicio.tpl</tmpl>
+        <scripts><js>jquery.js</js></scripts>
+    </inicio.php>
+
+    <inicio.anuncio.listado.php>
+        <title>Listado de anuncios</title>
+        <tmpl>listadoAnuncios.tpl</tmpl>
+        <scripts><js>jquery.js</js></scripts>
+    </inicio.anuncio.listado.php>
+    
+    <inicio.anuncio.detalle.php>
+        <title>Detalle de anuncio</title>
+        <tmpl>detalleAnuncios.tpl</tmpl>
+        <scripts><js>jquery.js</js></scripts>
+        <scripts><js>validar.js</js></scripts>  
+        <!-- <scripts><js>fileuploader.js</js></scripts> -->
+    </inicio.anuncio.detalle.php>
+
+    <inicio.anuncio.borrar.php>
+        <title>Borrar Anuncio</title>
+        <tmpl>borrarAnuncio.tpl</tmpl>
+        <scripts><js>jquery.js</js></scripts> 
+        <!-- <scripts><js>fileuploader.js</js></scripts> -->
+    </inicio.anuncio.borrar.php>
+    
+    
+    <inicio.anuncio.email.php>
+        <title>Enviar Email</title>
+        <tmpl>emailAnuncio.tpl</tmpl>
+        <scripts><js>jquery.js</js></scripts> 
+        <!-- <scripts><js>fileuploader.js</js></scripts> -->
+    </inicio.anuncio.email.php>
+
+    <publicar.php>
+        <title>Publicar anuncio</title>
+        <tmpl>publicar.tpl</tmpl>
+        <scripts><js>jquery.js</js></scripts>  
+        <scripts><js>validar.js</js></scripts>  
+        <!-- <scripts><js>fileuploader.js</js></scripts> -->
+    </publicar.php>
+    
+    <publicar.guardar.php>
+        <title>Anuncio Publicado</title>
+        <tmpl>publicar_guardar.tpl</tmpl>
+        <scripts><js>jquery.js</js></scripts>  
+    </publicar.guardar.php>
+
+    <error404.php>
+        <title>Error404</title>
+        <tmpl>error404.tpl</tmpl>
+        <scripts><js>jquery.js</js></scripts>
+        <scripts></scripts>
+    </error404.php>
+</root>
+ 
+

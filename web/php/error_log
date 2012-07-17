@@ -1,0 +1,2 @@
+[26-Apr-2012 11:45:06] PHP Warning:  copy() [<a href='function.copy'>function.copy</a>]: Filename cannot be empty in /home/redcompa/public_html/web/php/subirFichero.php on line 12
+[26-Apr-2012 11:50:51] PHP Warning:  copy() [<a href='function.copy'>function.copy</a>]: Filename cannot be empty in /home/redcompa/public_html/web/php/subirFichero.php on line 12

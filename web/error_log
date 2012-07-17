@@ -1,0 +1,2 @@
+[24-May-2012 12:11:02] PHP Warning:  require_once(spoon/exception/exception.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/redcompa/public_html/spoon/spoon.php on line 77
+[24-May-2012 12:11:02] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'spoon/exception/exception.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/redcompa/public_html/spoon/spoon.php on line 77

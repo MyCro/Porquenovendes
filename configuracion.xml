@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<root>
+    <directorios>
+        <raiz>/home/redcompa/public_html</raiz>
+        <templates>templates</templates>
+        <include>include</include>
+        <webcss>/web/css</webcss>
+        <webjs>/web/js</webjs>
+        <imagenes>files/images</imagenes>        
+    </directorios>
+    <basedatos>
+        <host>localhost</host>
+        <nombre>redcompa_pnlv</nombre>
+        <usuario>redcompa</usuario>
+        <clave>azaaxxsxsscc</clave>
+    </basedatos>
+    <string>
+        <parametrosWeb>
+            <sinContenido>Error 404</sinContenido>
+            <noTitle>No has puesto title para esta pagina, TitleXML: </noTitle>
+            <noControlador>El controlador no existe:</noControlador>
+            <titleDefault>PorqueNoLoVendes.com</titleDefault>
+        </parametrosWeb>
+    </string>
+    <imagenesPermitidas>
+        <mime>image/jpeg</mime>
+        <mime>image/gif</mime>
+        <mime>image/png</mime>
+    </imagenesPermitidas>
+    <usoHorario>7</usoHorario>
+</root>

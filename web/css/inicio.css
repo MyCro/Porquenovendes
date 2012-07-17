@@ -1,0 +1,121 @@
+
+/* ESTILO CSS */
+
+
+            /* -------- INICIO ---------- */
+                
+            #filacategorias{
+                float:left; padding-left: 30px; 
+            }/*Filacategorias*/
+            
+            #capacategoria{
+                float:left;
+                width:215px;
+                /*margin-left: 15px;*/
+                margin-top:20px;
+            }/*Capacategoria*/
+            
+            .imgcategoria{
+                width:200px;
+                height:100px;
+                background-position: center;
+                background-repeat: no-repeat;
+            }/*imgcategoria*/
+            
+            #nomcategoria{ 
+                text-align: center; 
+                width:200px; 
+                font-weight: bold; 
+                font-size: 17px; 
+                padding-bottom: 8px; 
+                padding-top: 5px;
+            }/*nomcategoria*/
+            
+            #nomsubcategoria{ color: #939393; padding-left:20px;}
+            
+            .catelectronica{background-image: url('../img/categorias/electronica.jpg');}
+            .catcasa{background-image: url('../img/categorias/casa.jpg');}
+            .cattrabajo{background-image: url('../img/categorias/trabajo.jpg');}
+            .catcoche{background-image: url('../img/categorias/coche.jpg');}
+            .catpiso{background-image: url('../img/categorias/piso.jpg');}
+            .catocio{background-image: url('../img/categorias/ocio.jpg');}
+            
+            
+            #bhorizontal{
+                height:1px;
+                background-image: url('../img/pixel.png');
+                background-repeat: repeat-x;
+                margin: 5px 35px 5px 35px;  
+                margin-bottom: 30px;
+            }/*Bhorizontal*/
+            
+            #imgmapa{
+                width:330px;
+                height:263px;
+                background-image: url('../img/mapa.jpg');
+                background-repeat: no-repeat;
+                background-position: center;
+            }/*Imgmapa*/
+            
+            #imgventa{
+                margin-top: -20px;
+                width:265px;
+                height:161px;;
+                background-image: url('../img/venta.jpg');
+                background-repeat: no-repeat;
+                background-position: center;
+                padding-top:50px;
+            }/*Imgmapa*/
+            
+            #imgcorrecto{
+                
+                margin-top: -20px;
+                width:511px;
+                height:266px;;
+                background-image: url('../img/homer.jpg');
+                background-repeat: no-repeat;
+                background-position: center;
+                padding-top:50px;
+                margin-left:50px;
+            }
+            
+            #imgincorrecto{
+                
+                margin-top: -20px;
+                width:511px;
+                height:266px;;
+                background-image: url('../img/homer2.jpg');
+                background-repeat: no-repeat;
+                background-position: center;
+                padding-top:50px;
+                margin-left:50px;
+            }
+            
+            
+             #imgduda{
+                margin-top: -20px;
+                width:265px;
+                height:161px;;
+                background-image: url('../img/duda.jpg');
+                background-repeat: no-repeat;
+                background-position: center;
+                padding-top:50px;
+            }/*Imgmapa*/
+            
+            
+            #imgpor{
+                margin-top: -20px;
+                width:265px;
+                height:161px;;
+                background-image: url('../img/portatil.jpg');
+                background-repeat: no-repeat;
+                background-position: center;
+                padding-top:50px;
+            }/*Imgmapa*/
+            
+            
+            /* -------- INICIO ---------- */
+            
+            .disabledList{
+                color:#dbdbdb;
+            }/*disabledList*/
