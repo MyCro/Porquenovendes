@@ -5,7 +5,8 @@ and open the template in the editor.
 -->
 <root>
     <directorios>
-        <raiz>/home/redcompa/public_html</raiz>
+        <!-- <raiz>/home/redcompa/public_html</raiz> -->
+        <raiz>/var/lib/stickshift/16471aa88e7a4ad69bb4ec65fbf31abc/app-root/data/236649</raiz>                
         <templates>templates</templates>
         <include>include</include>
         <webcss>/web/css</webcss>
@@ -13,7 +14,7 @@ and open the template in the editor.
         <imagenes>files/images</imagenes>        
     </directorios>
     <basedatos>
-        <host>localhost</host>
+        <host>50.22.90.94</host>
         <nombre>redcompa_pnlv</nombre>
         <usuario>redcompa</usuario>
         <clave>azaaxxsxsscc</clave>

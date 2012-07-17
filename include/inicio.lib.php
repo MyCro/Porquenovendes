@@ -2,8 +2,9 @@
 
 function obtenerSubcategorias($db, $idCat = 0, $bUFT8 = false){
     $aResultado = $db->getRecords("SELECT s.idSubcategoria, s.subNombre, quitar_acentos(s.subNombre) as nombreURL, IF((SELECT count(*) FROM anuncio as a WHERE a.idSubcategoria = s.idSubcategoria),'true','') as numeroAnuncio FROM subcategoria as s WHERE s.idCategoria = ? ", $idCat);    
+
     if (!$bUFT8) return $aResultado;
-    else {
+    else { 
         foreach ($aResultado as $Pos=>$aDatos) {
             $aResultado[$Pos]['subNombre'] = utf8_encode($aDatos['subNombre']);
         }    
@@ -126,7 +127,7 @@ function listadoCategorias ($db, $tpl, $sPestana) {
     
 
     $aCategorias = obtenerCategorias($db);
-
+    
     $sHtmlCategoria = "";
 
     $capafilai = '<div id="filacategorias">';
@@ -134,7 +135,6 @@ function listadoCategorias ($db, $tpl, $sPestana) {
     $contador = 0;
 
     
-
     foreach ($aCategorias AS $aArrayDatos) {
 
         $tpl->assign('categoriaestilo', dameImagenCat($aArrayDatos["idCategoria"]));

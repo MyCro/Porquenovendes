@@ -13,7 +13,7 @@ require includeLib($aConfiguracion);
 define("RAIZ",$aConfiguracion['directorios']['raiz']); //Define la ruta raiz de la web
 define("RAIZ_TPL",RAIZ."/".$aConfiguracion['directorios']['templates']); //Define la ruta hacia las plantillas
 
-## Ya no es necesario 
+## Ya no es necesario 
 // $iDebug = false; //Activar o desactivar el iDebug (Funcion más abajo)
 
 /* 
